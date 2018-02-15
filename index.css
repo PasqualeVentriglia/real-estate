@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+}
+
+header{ 
+display: inline-block;
+text-align: center;
+position: fixed;
+width: 100%;}
+
+#home{
+    padding: 0;
+    margin: 60px 0 0 0;
+    width: 100%;
+}
+
+#logo{
+    margin: 0;
+    float: right;
+    background: #062340;
+  
+}
+
+.navbar {   display: inline-block;
+            list-style-type: none;
+			background-color: #062340;
+            padding: 0;
+            margin: 0;
+            }
+
+.navbar li {
+				display: inline-block;
+                text-align: center;
+                padding: 21px;
+                margin: 0;
+
+            }
+
+.navbar a {
+				text-align:center;
+				font-family: 'AvantGarde',sans-serif;
+				font-size:15px;
+				text-decoration: none;
+                color: #FFF;
+				display: inline-block;
+				                }
+
+.residenziali_container {
+    display: inline-block;
+    background-color: darkblue;
+    width: 250px;
+    height: 150px;
+    border: 10px;
+    border-style: solid;
+    border-color: yellow;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    }
+
+.residenziali_container ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.residenziali_container li{
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    }
+
+.residenziali_container p{
+    padding: 0;
+    margin: 0;
+}
+
+.locazioni {
+    display: inline-block;
+    background-color: yellow;
+    width: 250px;
+    height: 150px;
+    border: 10px;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+    }
+
+.locazioni ul {
+    margin: 0;
+    padding: 0;
+}
+
+.locazioni li{
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.altriimmobili {
+    display: inline-block;
+    background-color: red;
+    width: 250px;
+    height: 150px;
+    border: 10px;
+    border-style: solid;
+    border-color: orange;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    }
+
+.altriimmobili ul {
+    margin: auto;
+    padding: 0;
+}
+
+.altriimmobili li{
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+.commerciali {
+    display: inline-block;
+    background-color: orange;
+    width: 250px;
+    height: 150px;
+    border: 10px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    }
+
+.commerciali ul {
+    margin: 0;
+    padding: 0;
+}
+
+.commerciali li{
+    text-decoration: none;
+    list-style-type: none;
+    }
